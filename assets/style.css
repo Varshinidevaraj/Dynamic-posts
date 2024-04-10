@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:black;
 }
 .outerbox{
     padding: 20px;
@@ -11,15 +11,18 @@ body{
     text-wrap: wrap;
     padding: 10px;
     border-radius: 10px;
-    border:2px solid black;
-    color:black;
+    border:2px solid white;
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 10px;
     margin-left: 10px;
     transition: all 0.5s;
-    background-color:white;
+    background-color:black;
 }    
 .posts h1{
     margin: 0;
     margin-top: 10px;
+}
+.posts:hover{
+    background-color: gray;
 }
