@@ -22,7 +22,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
     let spanTitle = document.createElement("span")
     spanTitle. innerHTML = apiData[i].title
     let spanBody = document.createElement("span")
-    spanBody. innerHTML = apiData[i].Body
+    spanBody. innerHTML = apiData[i].body
     headId.innerHTML = "ID:"
     headId.appendChild(spanId)
     headTitle. innerHTML = "Title:"
