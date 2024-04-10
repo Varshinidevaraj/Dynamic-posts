@@ -1,0 +1,25 @@
+body{
+    background-color:white;
+}
+.outerbox{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.posts{
+    width: 20%;
+    text-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid black;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all 0.5s;
+    background-color:white;
+}    
+.posts h1{
+    margin: 0;
+    margin-top: 10px;
+}
